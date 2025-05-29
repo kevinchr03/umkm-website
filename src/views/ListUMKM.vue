@@ -41,7 +41,7 @@
 import { onMounted, ref } from 'vue'
 import axios from 'axios'
 
-const API_URL = 'https://1b58-2a02-4780-59-b144-00-1.ngrok-free.app'
+const API_URL = import.meta.env.VITE_API_KEY
 const umkmList = ref([])
 const audioRefs = ref([])
 const loading = ref(false)
