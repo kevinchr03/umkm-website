@@ -8,8 +8,8 @@ services:
       - "8080:80" # Map port 8080 di host ke port 80 di kontainer
     restart: unless-stopped
     environment:
-      - VITE_MAPS_API_KEY: AIzaSyCTgV78N71Y5SpSGy8cWFFFJYcteNv-Pyc
-      - VITE_API_KEY: https://api.suarakeliling.xyz/
+      VITE_MAPS_API_KEY: AIzaSyCTgV78N71Y5SpSGy8cWFFFJYcteNv-Pyc
+      VITE_API_KEY: https://api.suarakeliling.xyz/
     networks:
       - main
 
