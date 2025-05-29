@@ -25,7 +25,7 @@ const router = useRouter()
 const username = ref('')
 const password = ref('')
 const error = ref(false)
-const API_URL = 'https://1b58-2a02-4780-59-b144-00-1.ngrok-free.app'
+const API_URL = import.meta.env.VITE_API_KEY
 
 const login = async () => {
   try {
