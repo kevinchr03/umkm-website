@@ -5,7 +5,7 @@ import { useRoute, useRouter } from 'vue-router'
 const route = useRoute()
 
 const apiKey = import.meta.env.VITE_MAPS_API_KEY
-const API_URL = 'https://1b58-2a02-4780-59-b144-00-1.ngrok-free.app'
+const API_URL = import.meta.env.VITE_API_KEY
 const umkmId = route.params.id
 const router = useRouter() // <-- this is for navigation
 
