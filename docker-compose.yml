@@ -10,6 +10,7 @@ services:
     environment:
       VITE_MAPS_API_KEY: AIzaSyCTgV78N71Y5SpSGy8cWFFFJYcteNv-Pyc
       VITE_API_KEY: https://api.suarakeliling.xyz
+      VITE_BASE_URL: https://suarakeliling.xyz
     networks:
       - main
 
