@@ -9,7 +9,7 @@ services:
     restart: unless-stopped
     environment:
       VITE_MAPS_API_KEY: AIzaSyCTgV78N71Y5SpSGy8cWFFFJYcteNv-Pyc
-      VITE_API_KEY: https://api.suarakeliling.xyz/
+      VITE_API_KEY: https://api.suarakeliling.xyz
     networks:
       - main
 
