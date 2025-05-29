@@ -14,7 +14,7 @@ const map = ref(null)
 const umkmList = ref([])
 
 // Add protocol to API_URL for axios to work correctly
-const API_URL = 'https://1b58-2a02-4780-59-b144-00-1.ngrok-free.app'
+const API_URL = import.meta.env.VITE_API_KEY
 
 // Night mode style unchanged...
 
