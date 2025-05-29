@@ -1,0 +1,9 @@
+services:
+  umkm-website:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: umkm_vue_app
+    ports:
+      - "8080:80" # Map port 8080 di host ke port 80 di kontainer
+    restart: unless-stopped
