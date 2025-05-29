@@ -18,6 +18,7 @@
         <li><a @click.prevent="navigateTo('team-profile')">Team Profile</a></li>
         <li><a @click.prevent="navigateTo('map-umkm')">Map UMKM</a></li>
         <li><a @click="navigatePage('/list-umkm')">List UMKM</a></li>
+        <li><a @click="navigatePage('/admin')">List UgfMKM</a></li>
         <li><a @click.prevent="navigateTo('faq')">FAQ</a></li>
       </ul>
     </div>
